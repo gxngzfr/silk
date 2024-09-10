@@ -56,6 +56,11 @@ main {
   cursor: pointer;
 }
 
+button:hover{
+  background-color: #1c2924;
+  color: #f5fffb;
+}
+
 .feed article {
   border: 1px solid #ccc;
   border-radius: 5px;
