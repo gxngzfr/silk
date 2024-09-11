@@ -39,21 +39,44 @@ main {
 }
 
 .compose textarea {
-  width: 100%;
-  height: 100px;
-  padding: 10px;
+  width: 70%;
+  height: 10%;
+  padding: 1%;
+  margin-bottom: 33px;
+  margin-left: 12%;
   border: 1px solid #ccc;
   border-radius: 5px;
-  flex-grow: 1;
+
 }
 
 .compose button {
   background-color: #333;
   color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 7px 15px;
+  border: 3px solid #262626;
+  border-radius: 8px;
   cursor: pointer;
+
+  margin-left: 3%;
+  margin-top: -2.55%
+
+}
+
+@keyframes postButtonHovered {
+  to {
+    transform: scale(1.1);
+    transform-origin: center;
+    
+  }
+}
+
+.compose button:hover {
+  border: 3px solid #333;
+  animation-name: postButtonHovered;
+  animation-duration: 0.5s;
+  background: #262626;
+  color: #ffff00;
+  cursor: cell;
 }
 
 button:hover{

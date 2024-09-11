@@ -1,4 +1,8 @@
-# silk
+# silk ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/gxngzfr/silk?style=for-the-badge)
+
+
+### *silk is still in development*
+<hr>
 Silk is a social media which is open-source, secure, and supports freedom of speech, a great free way to express yourself.
 You can view the website at: https://gxngzfr.github.io/silk/home.html OR https://silk-demo.netlify.app/
 As of right now, this is a DEMO stage, and this project is currently in the making. 
